@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(/assets/header-pic.jpg);
+    background-size: cover;
+}
+
+.barra {
+    -webkit-box-shadow: 0px 4px 16px 0px #000000;
+    box-shadow: 0px 4px 16px 0px #000000;
+}
+
+.drop-menu {
+    color: red;
+}
+
+
+/*NOMBRE*/
+
+.name-container {
+    display: flex;
+    padding: 85px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.name {
+    color: white;
+    background: #EAC435;
+    display: inline-block;
+    padding: 15px 60PX;
+    font-family: 'Bowlby One', cursive;
+    margin: 0px;
+    font-size: 80px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.51);
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.51);
+}
+
+.developer {
+    background: #662E9B;
+    font-size: 20px;
+    margin: -25px;
+}
+
+
+/*LOGOS*/
+
+.logos {
+    color: white;
+    margin-top: 20px;
+    display: flex;
+}
+
+.icono {
+    padding: 15px;
+}
+
+
+/*NAVBAR*/
+
+.menu {
+    background: white;
+    height: 75px;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menu_items {
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+}
+
+.menu_items li {
+    border-radius: 3px;
+    margin: 0 5px
+}
+
+.menu_items li a {
+    padding: 7px 13px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    text-transform: uppercase;
+    color: #662E9B;
+    font-family: 'Bowlby One', cursive;
+}
+
+.menu_items li a:hover,
+li.active {
+    color: #EAC435;
+    transition: .4s;
+}
+
+.btn-menu {
+    margin-right: 30px;
+    font-size: 25px;
+    color: black;
+    cursor: pointer;
+    display: none;
+}
+
+ul.show {
+    top: 65px
+}
+
+@media screen and (max-width: 952px) {}
+
+@media screen and (max-width: 858px) {
+    .name {
+        padding: 15px 60PX;
+        font-size: 40px;
+        border-radius: 5px;
+    }
+    .developer {
+        background: #662E9B;
+        font-size: 20px;
+        margin: -25px;
+        padding: 10px 30PX;
+    }
+}
+
+
+/*Conocimientos*/
+
+.knowledge {
+    padding-top: 40px;
+    background: #F8F8F8;
+}
+
+.lenguajes {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.lenguaje {
+    margin-bottom: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+.front {
+    width: 45%;
+    padding: 20px;
+}
+
+.back {
+    width: 45%;
+    padding: 20px;
+}
+
+.title-lenguaje {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.title-lenguaje h2 {
+    color: #000;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.server {
+    color: #662E9B;
+    ;
+    margin-right: 5px;
+}
+
+.otros-conocimietnos {
+    width: 100%;
+    background: #E8E8E8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px;
+}
+
+.otros-conocimietnos p {
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.other-icon {
+    width: 80px;
+    margin-right: 20px;
+}
+
+.icon-container {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+
+/*CURSOS*/
+
+.cursos {
+    width: 100%;
+    background: #011627;
+    color: #FF8E00;
+}
+
+.lista-cursos ul li {
+    color: white;
+}
+
+.cursos-container {
+    padding: 50px;
+}
