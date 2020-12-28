@@ -114,22 +114,6 @@ ul.show {
     top: 65px
 }
 
-@media screen and (max-width: 952px) {}
-
-@media screen and (max-width: 858px) {
-    .name {
-        padding: 15px 60PX;
-        font-size: 40px;
-        border-radius: 5px;
-    }
-    .developer {
-        background: #662E9B;
-        font-size: 20px;
-        margin: -25px;
-        padding: 10px 30PX;
-    }
-}
-
 
 /*Conocimientos*/
 
@@ -174,7 +158,6 @@ ul.show {
 
 .server {
     color: #662E9B;
-    ;
     margin-right: 5px;
 }
 
@@ -221,4 +204,24 @@ ul.show {
 
 .cursos-container {
     padding: 50px;
+}
+
+@media screen and (max-width: 952px) {}
+
+@media screen and (max-width: 858px) {
+    .name {
+        padding: 15px 60PX;
+        font-size: 40px;
+        border-radius: 5px;
+    }
+    .developer {
+        background: #662E9B;
+        font-size: 20px;
+        margin: -25px;
+        padding: 10px 30PX;
+    }
+    .other-icon {
+        width: 40px;
+        margin-bottom: 10px;
+    }
 }
