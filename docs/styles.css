@@ -211,21 +211,21 @@ ul.show {
 
 @media screen and (max-width: 858px) {
     .name {
-        padding: 15px 60PX;
-        font-size: 40px;
+        padding: 10px 20PX;
+        font-size: 30px;
         border-radius: 5px;
     }
     .developer {
         background: #662E9B;
-        font-size: 20px;
+        font-size: 10px;
         margin: -25px;
-        padding: 10px 30PX;
+        padding: 10px 20PX;
     }
     .other-icon {
         width: 40px;
         margin-bottom: 10px;
     }
     .icono {
-        font-size: 40px;
+        font-size: 30px;
     }
 }
