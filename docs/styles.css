@@ -8,15 +8,12 @@
 header {
     background-image: url(./assets/header-pic.jpg);
     background-size: cover;
+    background-position: center center;
+    height: 100vh;
 }
 
-.barra {
-    -webkit-box-shadow: 0px 4px 16px 0px #000000;
-    box-shadow: 0px 4px 16px 0px #000000;
-}
-
-.drop-menu {
-    color: red;
+img {
+    width: 100%;
 }
 
 
@@ -25,10 +22,10 @@ header {
 .name-container {
     display: flex;
     padding: 85px;
+    height: 100%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: auto;
 }
 
 .name {
@@ -184,6 +181,10 @@ ul.show {
     margin-right: 20px;
 }
 
+.other-icon:hover {
+    transform: scale(1.2);
+}
+
 .icon-container {
     display: flex;
     width: 50%;
@@ -211,14 +212,14 @@ ul.show {
 
 @media screen and (max-width: 858px) {
     .name {
-        padding: 10px 20PX;
+        padding: 15px 30PX;
         font-size: 30px;
         border-radius: 5px;
     }
     .developer {
         background: #662E9B;
         font-size: 10px;
-        margin: -25px;
+        margin: -30px;
         padding: 10px 20PX;
     }
     .other-icon {
@@ -226,6 +227,55 @@ ul.show {
         margin-bottom: 10px;
     }
     .icono {
-        font-size: 15px;
+        font-size: 30px;
     }
+}
+
+
+/*Sobre mi*/
+
+.container-sobremi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagen {
+    width: 20%;
+}
+
+@media (max-width: 858px) {
+    .imagen {
+        width: 50%;
+    }
+}
+
+.sobre-mi {
+    background: #fff;
+    padding: 50px 0;
+}
+
+.sobre-mi h1 {
+    color: #FF8E00;
+}
+
+.container-sobremi {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.imagen img {
+    border-radius: 50%;
+    margin-top: 1rem;
+    -webkit-box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.84);
+    box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.84);
+}
+
+.sobremi-text {
+    width: 80%;
+    text-align: center;
+    margin-top: 2rem;
+    color: #000;
+    font-size: 20px;
 }
