@@ -293,3 +293,28 @@ img {
     background: #000d17;
     transition: 1s;
 }
+
+.link-proyecto{
+    text-decoration: underline;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.link-proyecto:hover{
+    text-decoration: underline;
+    color: black;
+    cursor: pointer;
+}
+
+/*Footer*/
+footer{
+    width: 100%;
+    background: #011627;
+}
+
+footer p{
+    padding: 1rem;
+    margin: auto auto;
+    color: #fff;
+}
